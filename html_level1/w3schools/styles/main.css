@@ -1,0 +1,23 @@
+#wrap {
+    background-color:aqua;
+    width:440px; height:956px;
+    padding-left:15px;
+    padding-right:15px;
+}
+#wrap h1 {}
+#wrap > p {}/* #wrap 모든 자식 p */
+#wrap h1+p {
+    background-color:yellow;
+}/* #wrap의 h1 옆에 p */
+#wrap #login_frm {
+    background-color:lime;
+}
+#wrap #login_frm h2 {}
+#wrap #login_frm p {}
+#wrap #login_frm p input {}
+#wrap #login_frm p #login_btn {}
+#wrap #login_frm p .login_google {}
+#wrap #login_frm+p {
+    background-color:coral;
+}/* #wrap의 login_frm 옆에 p */
+#wrap #login_frm+p a {}
